@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   minitalk.h                                         :+:      :+:    :+:   */
+/*   minitalk_bonus.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: chduong <chduong@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 15:20:02 by chduong           #+#    #+#             */
-/*   Updated: 2021/10/11 17:10:08 by chduong          ###   ########.fr       */
+/*   Updated: 2021/10/12 13:38:23 by chduong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MINITALK_H
-# define MINITALK_H
+#ifndef MINITALK_BONUS_H
+# define MINITALK_BONUS_H
 # include <unistd.h>
 # include <signal.h>
 # include <stdlib.h>
@@ -28,5 +28,6 @@ int		receive_byte(char *byte, int signal);
 void	send_byte(char byte, int pid);
 void	send_msg(char *str, int pid);
 void	reveive_msg(int signal, siginfo_t *info, void *context);
+void	signal_receipt(int signal);
 
 #endif
