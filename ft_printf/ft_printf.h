@@ -6,7 +6,7 @@
 /*   By: chduong <chduong@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/09 14:55:38 by chduong           #+#    #+#             */
-/*   Updated: 2021/10/13 16:50:49 by chduong          ###   ########.fr       */
+/*   Updated: 2021/09/09 17:32:10 by chduong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <unistd.h>
-# include <stdint.h>
 
 typedef struct s_format
 {
